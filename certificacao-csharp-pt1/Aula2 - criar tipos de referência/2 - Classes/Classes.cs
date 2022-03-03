@@ -26,7 +26,7 @@ namespace certificacao_csharp_roteiro.Aula2___criar_tipos_de_referência._2___Cl
         }
     }
 
-    class ClassePosicaoGPS : IGPS
+    public class ClassePosicaoGPS : IGPS
     {
         public double Latitude;
         public double Longitude;
@@ -54,7 +54,7 @@ namespace certificacao_csharp_roteiro.Aula2___criar_tipos_de_referência._2___Cl
         }
     }
 
-    internal class PosicaoGPSComLeitura : ClassePosicaoGPS
+    public class PosicaoGPSComLeitura : ClassePosicaoGPS
     {
         private readonly DateTime dataLeitura;
 
