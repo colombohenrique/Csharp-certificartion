@@ -1,4 +1,6 @@
-﻿using System;
+﻿using certificacao_csharp_roteiro.Aula2___criar_tipos_de_referência._1___Tipos_de_Referência;
+using certificacao_csharp_roteiro.Aula2___criar_tipos_de_referência._2___Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -77,8 +79,8 @@ namespace certificacao_csharp_roteiro
                 new MenuItem("Booleanos", typeof(Booleanos)),
                 new MenuItem("Estruturas", typeof(Estruturas)),
                 new MenuItem("Enumeracoes", typeof(Enumeracoes)),
-                //new MenuItem("Tipos de Refêrencia", typeof(TiposDeReferencia)),
-                //new MenuItem("Classes", typeof(Classes)),
+                new MenuItem("Tipos de Refêrencia", typeof(TiposDeReferencia)),
+                new MenuItem("Classes", typeof(Classes)),
                 //new MenuItem("Interfaces", typeof(Interfaces)),
                 //new MenuItem("Delegates", typeof(Delegates)),
                 //new MenuItem("Objetos", typeof(Objetos)),
